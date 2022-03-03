@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assets/pexels-arnie-chou-1229042.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#image_input {
+  width: 0;
+  height: 0;
+}
+
+label > p {
+  font-size: 24px;
+  color: #fff;
+}
+
+#display_image {
+  width: 400px;
+  height: 322px;
+  border: 1px solid #fff;
+  margin-top: 3%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
